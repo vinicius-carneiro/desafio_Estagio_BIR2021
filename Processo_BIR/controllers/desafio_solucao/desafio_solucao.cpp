@@ -139,7 +139,7 @@ int main(int argc, char **argv) {
      // valores de velocidade de modo que o sentido de rotação das rodas resultam em uma manobra à esquerda e o comportamento é alterado
      //para LEFT. Se ao invés ocorrer com o lado direito, o robô manobra para o lado direito e o estado passa para RIGHT. Nenhuma dessas duas condições sendo atingidas,
      // conclui-se que o caminho está livre e o robô segue em frente mantendo comportamento FORWARD.
-     
+     // A constante que multiplica MAX_SPEED é reduzida com relação a do código original do desafio
       case FORWARD:
         if (wheel_weight_total[0] > WHEEL_WEIGHT_THRESHOLD) {
           speed[0] = 0.7 * MAX_SPEED;
