@@ -12,4 +12,4 @@ A solução para o problema do robô PIONEER 3DX para chegar à luminária junto
 -> Adição de linhas de código para monitorar distância ao alvo desejado.
 
 O código de controle da solução resultante garantiu ao PIONEER 3DX perfazer o trajeto até a luminária, evitando os os obstáculos, dentro do limite de tempo proposto ao desafio.
-Para maiores detalhes, favor consultar o código-solução comentado.
+Para maiores detalhes, favor consultar o código-solução comentado, dentro da pasta PROCESSO_BIR deste repositório.
